@@ -1,0 +1,35 @@
+# =========================
+# Data (NO subir)
+# =========================
+data/**
+!data/raw/
+!data/raw/taxi_zone_lookup.csv
+
+# =========================
+# Model artifacts
+# =========================
+# Guarda el modelo de LightGBM (sí subir)
+!models/
+!models/*.txt
+
+# Si en el futuro guardas modelos binarios, normalmente NO subirlos (opcional)
+models/*.pkl
+models/*.joblib
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+
+# =========================
+# VSCode / OS
+# =========================
+.vscode/
+.DS_Store
