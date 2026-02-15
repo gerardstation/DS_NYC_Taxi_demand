@@ -77,7 +77,7 @@ preds = preds.merge(
     suffixes=("", "_lk"),
 )
 
-# Si por cualquier motivo no quedó "zone_name" limpio (conflictos/sufijos), lo reconstruimos
+
 if "zone_name" not in preds.columns:
     for cand in ["zone_name_lk", "zone_name_x", "zone_name_y", "Zone", "zone"]:
         if cand in preds.columns:
